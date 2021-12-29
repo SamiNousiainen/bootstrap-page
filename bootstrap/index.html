@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <title>bootstrap website</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- nav start-->
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(74, 189, 255);">
+      <div class="container-fluid">
+        <a href="index.html" class="logo"><img src="images/Blasphemous_1.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Good websites
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="https://powergrip.fi/">Powergrip</a></li>
+                <li><a class="dropdown-item" href="https://store.steampowered.com/">Steam</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/">YouTube</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav end -->
+
+  </head>
+  <body>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- content start-->
+
+  <section id="content">
+
+  <div id="links">
+    <div class="card" style="width: 18rem;">
+        <img src="images/ps_prev.png" class="card-img-top" alt="bg">
+        <div class="card-body">
+          <h5 class="card-title">Photoshop</h5>
+          <p class="card-text">Images made by me</p>
+          <a href="alasivu/photoshop.html" class="btn btn-primary">click</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/myman.png" class="card-img-top" alt="myman">
+        <div class="card-body">
+          <h5 class="card-title">Some funny stuff here</h5>
+          <p class="card-text">yep</p>
+          <a href="alasivu/misc.html" class="btn btn-primary">click</a>
+        </div>
+      </div>
+  </div>
+  
+
+  <!-- content end-->
+
+  <!--accordion start-->
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          number 1 link!!!
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">sample text haha</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          number 2 link :(
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">AGRESSIVE SAMPLE TEXT</div>
+      </div>
+    </div>
+  </div>
+
+  <!--accordion end-->
+
+
+  <footer>
+    <div>
+      <p>&copy;2021</p>
+    </div>
+  </footer>
+
+  </section>
+  </body>
+
+</html>
