@@ -56,6 +56,10 @@ footer {
     list-style-type: none;
 }
 
+li {
+    border-bottom: solid black 1px;
+}
+
 a {
     text-decoration: none;
 }
@@ -93,14 +97,6 @@ h2 {
     color: white;
     text-shadow: black 0px 0px 5px;
 }
-
-/*#misc-content {
-    display: inline-block;
-    text-align: center;
-    padding: 20px;
-    color: white;
-    text-shadow: black 0px 0px 5px;
-}*/
 
 .row {
     color: white;
