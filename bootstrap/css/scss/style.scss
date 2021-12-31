@@ -1,3 +1,15 @@
+@mixin theme ($theme: #f1f1f1) {
+    color: $theme;
+    text-shadow: black 0px 0px 5px;
+}
+nav {
+    @include theme;
+}
+
+.navbar ~ li {
+    border-bottom: none;
+} 
+
 section {
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgb(0, 0, 0));
 }
@@ -45,6 +57,7 @@ body {
 }
 
 footer {
+    @include theme;
     background-color: rgb(74, 189, 255);
     padding: 20px;
     text-align: center;
@@ -56,14 +69,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
     list-style-type: none;
-}
-
-li {
-    border-bottom: solid black 1px;
+    li {
+        border-bottom: solid black 1px;
+    }
 }
 
 a {
     text-decoration: none;
+}
+
+a[href^="https"] {
+    color: rgb(74, 189, 255);
 }
 
 #pig, #bob {
