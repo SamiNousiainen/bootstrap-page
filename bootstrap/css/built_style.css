@@ -1,3 +1,7 @@
+.navbar ~ li {
+  border-bottom: none;
+}
+
 section {
   background: linear-gradient(rgba(255, 255, 255, 0.2), black);
 }
@@ -45,6 +49,8 @@ body {
 }
 
 footer {
+  color: #f1f1f1;
+  text-shadow: black 0px 0px 5px;
   background-color: #4abdff;
   padding: 20px;
   text-align: center;
@@ -57,13 +63,16 @@ footer {
   margin-right: auto;
   list-style-type: none;
 }
-
-li {
+.accordion li {
   border-bottom: solid black 1px;
 }
 
 a {
   text-decoration: none;
+}
+
+a[href^=https] {
+  color: #4abdff;
 }
 
 #pig, #bob {
